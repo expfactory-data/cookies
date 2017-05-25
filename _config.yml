@@ -4,6 +4,7 @@ description: Example JSON API to serve cookie tumor dataset
 relative_permalinks: false
 markdown: kramdown
 url: "https://expfactory-data.github.io/cookies"
+repo: "https://github.com/expfactory-data/cookies"
 
 collections:
   datasets:
