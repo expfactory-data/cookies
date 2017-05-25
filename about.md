@@ -10,7 +10,7 @@ This is an example dataset that is being distributed by using the [JSON API](htt
 You can parse the entire dataset programatically by starting at the base [datasets json](/datasets).
 
 ## Where is the data?
-The dataset can be viewed in entirety on [Github]({{ site.repo }})</a>. 
+The dataset can be viewed in entirety on [Github]({{ site.repo }}). 
 Each dataset is a separate folder within `_datasets`, and this means that you can add a new dataset by simply adding a folder with the appropriate subfolders and metadata. 
 
 
