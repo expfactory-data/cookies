@@ -28,14 +28,29 @@
   description: A human-readable description of the dataset
   required: false
 
-- name: images
-  description: Bulleted list of images included in "images" subfolder
+- name: note
+  description: Any additional notes about the dataset
   required: false
+
+# For Datasets
+
+- name: includes
+  description: Bulleted list of included data types, images and/or texts
+  required: false
+
+# For images and texts
 
 - name: texts
   description: Bulleted list of texts included in "texts" subfolder
   required: false
 
-- name: note
-  description: Any additional notes about the dataset
+- name: images
+  description: Bulleted list of images included in "images" subfolder
   required: false
+
+# For single image or text
+
+- name: files
+  description: The file(s) associated with the image-id. More than one file may be appropriate for a series.
+  required: false
+

@@ -7,7 +7,7 @@ title: "About this dataset"
 This is an example dataset that is being distributed by using the [JSON API](http://jsonapi.org/) specification. The entire thing is rendered statically using [Jekyll on Github Pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/).
 
 ## How do I use this?
-You can parse the entire dataset programatically by starting at the base [datasets json](/datasets).
+You can parse the entire dataset programatically by starting at the base [datasets json]({{ site.url }}/datasets).
 
 ## Where is the data?
 The dataset can be viewed in entirety on [Github]({{ site.repo }}). 
@@ -34,7 +34,7 @@ _datasets
 In the above example, we have an entity named "cookie-1" with a metadata.txt file that will be rendered at the url `/datasets/cookie-1/metadata` as json, and this metadata file will have an `includes` section that will indicate if we have images and/or text, or neither, and then link to `/datasets/cookie-1/images` and/or `/datasets/cookie-1/texts`. Details about the metadata file, images and text files, are below. For the above, we should note that the folder name `cookie-1` is going to coincide with the `dataset-id`.
 
 ### Metadata
-`metadata.txt` should be a text file located at the top level of the subject folder. Note that the `dataset-id` coincides with the folder name for the dataset. THe `metadata.txt` includes the fields specified in [meta.yml](https://www.github.com/expfactory-data/cookies/master/_data/meta.yml), organized according to being required or not. We can look at an example:
+`metadata.txt` should be a text file located at the top level of the subject folder. Note that the `dataset-id` coincides with the folder name for the dataset. THe `metadata.txt` includes the fields specified in [meta.yml](https://github.com/expfactory-data/cookies/blob/master/_data/meta.yml), organized according to being required or not. We can look at an example:
 
 ```
 ---
