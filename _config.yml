@@ -1,0 +1,37 @@
+---
+title: Cookie Tumor Dataset
+description: Example JSON API to serve cookie tumor dataset
+relative_permalinks: false
+markdown: kramdown
+url: "https://expfactory-data.github.io/cookie-tumors"
+
+collections:
+  datasets:
+    output: true
+    permalink: /datasets/:path/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "datasets"
+    values:
+      hidden: true
+      layout: dataset
+
+exclude:
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - assets/vendor/selectivizr/tests
+  - assets/vendor/clipboard/test
+
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+
+twitter:
+  username: "@researchapps"

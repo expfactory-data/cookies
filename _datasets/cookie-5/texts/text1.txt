@@ -1,0 +1,10 @@
+---
+type: text
+dataset-id: text1
+
+files:
+  - text1.json
+
+attributes:
+  - filetype: json
+---

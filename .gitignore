@@ -1,0 +1,4 @@
+/_site
+assets/vendor/selectivizr/tests
+assets/vendor/qtip2/basic
+Gemfile.lock

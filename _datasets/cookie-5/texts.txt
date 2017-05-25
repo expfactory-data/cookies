@@ -1,0 +1,7 @@
+---
+type: texts
+dataset-id: cookie-1
+
+texts:
+  - text1
+---

@@ -1,0 +1,17 @@
+---
+type: entity
+dataset-id: cookie-2
+hidden: false
+
+description: This is a cookie tumor. I am describing the cookie tumor!
+
+license: This is a license for this dataset.
+
+attributes:
+  - cookie_type: chocolate chip
+  - cookie_age: 4
+  - cookie_candy: chocolate chunks
+
+includes:
+  - images
+---

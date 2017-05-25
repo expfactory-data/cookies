@@ -1,0 +1,18 @@
+---
+type: entity
+dataset-id: cookie-3
+hidden: true
+
+description: This is a HIDDEN cookie tumor. It won't appear in the top level at /datasets
+
+license: This is a license for this dataset.
+
+attributes:
+  - cookie_type: top secret
+  - cookie_age: 2.2
+  - cookie_candy: top secret!
+
+includes:
+  - images
+---
+

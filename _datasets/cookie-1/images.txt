@@ -1,0 +1,7 @@
+---
+type: images
+dataset-id: cookie-1
+
+images:
+  - image1
+---

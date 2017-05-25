@@ -1,0 +1,41 @@
+# Each entity has YAML front matter describing the dataset properties.
+# The available fields are:
+
+- name: title
+  description: The entity full name, different from the identifier in that it can have spaces.
+  required: true
+
+- name: dataset-id
+  description: A short identifier for the dataset, no spaces or special characters other than -
+  required: true
+
+- name: type
+  description: One of entity, image, or text
+  required: true
+
+
+# Optional fields
+
+- name: hidden
+  description: Whether to include (publish) the dataset.
+  required: false
+
+- name: license
+  description: The URL to the license for the dataset, if one exists
+  required: false
+
+- name: description
+  description: A human-readable description of the dataset
+  required: false
+
+- name: images
+  description: Bulleted list of images included in "images" subfolder
+  required: false
+
+- name: texts
+  description: Bulleted list of texts included in "texts" subfolder
+  required: false
+
+- name: note
+  description: Any additional notes about the dataset
+  required: false

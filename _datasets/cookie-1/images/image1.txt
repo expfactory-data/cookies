@@ -1,0 +1,13 @@
+---
+type: image
+dataset-id: image1
+
+files:
+  - image1.jpg
+
+attributes:
+  - EXIF SubjectDistance": 0
+  - EXIF SceneType: 0
+  - Image Resolution: 768/17
+  - EXIF FlashEnergy: 1800
+---
